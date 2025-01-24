@@ -4,6 +4,7 @@ age = int(input("enter your age: "))
 print("choose your citizenship")
 print("1.kenyan")
 print("2.other")
+#choice input on citizenship #
 
 citizenship = int(input("choose: "))
                   

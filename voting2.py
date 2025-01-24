@@ -1,12 +1,14 @@
-# get input #
-age = int(input("enter your age: "))
-citizenship = input("Enter your citizenship: ")
-if (citizenship == "Kenyan" or "ugandan" or "tanzanian"):
-    if (age < 18):
-        print("you are not eligible to vote")
-    elif(age >= 18):
-        print("youre eligible to vote")
-    elif(age < 1):
-        print("invalid age entered")
+# Get input
+age = int(input("Enter your age: "))
+citizenship = input("Enter your citizenship: ").lower()  # Convert input to lowercase
+
+# Compare with available string values 
+if citizenship in ["kenyan", "ugandan", "tanzanian"]:
+    if age < 1:
+        print("Invalid age entered")
+    elif age < 18:
+        print("You are not eligible to vote")
+    else:
+        print("You are eligible to vote")
 else:
-    print("youre not eligible")
+    print("You are not eligible")

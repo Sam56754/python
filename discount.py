@@ -1,5 +1,5 @@
 amount_input = input("Enter the total amount: ")
-if (amount_input.isdigit()):
+if (amount_input.isdigit()): #check if input is numbers #
     amount = int(amount_input)
     if isinstance(amount, int):
         if (amount>5000):
@@ -10,7 +10,7 @@ if (amount_input.isdigit()):
             discount = 0.05*amount
             print("the discount is: ",discount)
             print("the total discounted amount is: ", amount - discount)
-        elif (amount <1):
+        elif (amount <1): # edge case for negative input #
             print("invalid amount")
         else:
             print("your amount is ", amount ,"without discount")

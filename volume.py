@@ -1,3 +1,5 @@
+# program to calculate the volume of a sphere given the radius
+
 #radius input and calculates the volume 4/3pi r 3  use math library for pi and ans in 2dp#
 import math
 

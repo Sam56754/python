@@ -1,3 +1,5 @@
+# program to check if a user is available to vote regarding their citzenship and age
+
 # get input #
 age = int(input("enter your age: "))
 

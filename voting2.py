@@ -1,3 +1,5 @@
+#program to check if a user is allowed to vote accoring to their age and citizenship of either of three countries
+
 # Get input
 age = int(input("Enter your age: "))
 citizenship = input("Enter your citizenship: ").lower()  # Convert input to lowercase

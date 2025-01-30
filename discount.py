@@ -1,3 +1,5 @@
+# python program to calculate the discount offered on purchase amount (>5000 gets 10% disc , >1000 gets 5%disc and the rest no discount)
+
 amount_input = input("Enter the total amount: ")
 if (amount_input.isdigit()): #check if input is numbers #
     amount = int(amount_input)

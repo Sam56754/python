@@ -1,4 +1,4 @@
-#objects and classes
+#objects and classes: a program that finds the area of a rectangle and teh perimeter with predefined inputs
 
 class Rectangle:
     def __init__(self, length, width):
